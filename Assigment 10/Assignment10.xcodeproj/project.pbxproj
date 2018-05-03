@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF45FFCD209BB2BD0090C39C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45FFCC209BB2BD0090C39C /* main.m */; };
+		BF45FFD9209BB2D40090C39C /* AmazonPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45FFD4209BB2D40090C39C /* AmazonPaymentService.m */; };
+		BF45FFDA209BB2D40090C39C /* ApplePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45FFD6209BB2D40090C39C /* ApplePaymentService.m */; };
+		BF45FFDB209BB2D40090C39C /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45FFD8209BB2D40090C39C /* InputHandler.m */; };
+		BF45FFE2209BB2DF0090C39C /* PaymentGateWay.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45FFDD209BB2DF0090C39C /* PaymentGateWay.m */; };
+		BF45FFE3209BB2DF0090C39C /* PaypalPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45FFDF209BB2DF0090C39C /* PaypalPaymentService.m */; };
+		BF45FFE4209BB2DF0090C39C /* StripePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45FFE1209BB2DF0090C39C /* StripePaymentService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF45FFC7209BB2BD0090C39C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF45FFC9209BB2BD0090C39C /* Assignment10 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment10; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF45FFCC209BB2BD0090C39C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF45FFD3209BB2D40090C39C /* AmazonPaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonPaymentService.h; sourceTree = "<group>"; };
+		BF45FFD4209BB2D40090C39C /* AmazonPaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonPaymentService.m; sourceTree = "<group>"; };
+		BF45FFD5209BB2D40090C39C /* ApplePaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplePaymentService.h; sourceTree = "<group>"; };
+		BF45FFD6209BB2D40090C39C /* ApplePaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplePaymentService.m; sourceTree = "<group>"; };
+		BF45FFD7209BB2D40090C39C /* InputHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		BF45FFD8209BB2D40090C39C /* InputHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
+		BF45FFDC209BB2DF0090C39C /* PaymentGateWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentGateWay.h; sourceTree = "<group>"; };
+		BF45FFDD209BB2DF0090C39C /* PaymentGateWay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentGateWay.m; sourceTree = "<group>"; };
+		BF45FFDE209BB2DF0090C39C /* PaypalPaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaypalPaymentService.h; sourceTree = "<group>"; };
+		BF45FFDF209BB2DF0090C39C /* PaypalPaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaypalPaymentService.m; sourceTree = "<group>"; };
+		BF45FFE0209BB2DF0090C39C /* StripePaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StripePaymentService.h; sourceTree = "<group>"; };
+		BF45FFE1209BB2DF0090C39C /* StripePaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StripePaymentService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF45FFC6209BB2BD0090C39C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF45FFC0209BB2BD0090C39C = {
+			isa = PBXGroup;
+			children = (
+				BF45FFCB209BB2BD0090C39C /* Assignment10 */,
+				BF45FFCA209BB2BD0090C39C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF45FFCA209BB2BD0090C39C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF45FFC9209BB2BD0090C39C /* Assignment10 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF45FFCB209BB2BD0090C39C /* Assignment10 */ = {
+			isa = PBXGroup;
+			children = (
+				BF45FFDC209BB2DF0090C39C /* PaymentGateWay.h */,
+				BF45FFDD209BB2DF0090C39C /* PaymentGateWay.m */,
+				BF45FFDE209BB2DF0090C39C /* PaypalPaymentService.h */,
+				BF45FFDF209BB2DF0090C39C /* PaypalPaymentService.m */,
+				BF45FFE0209BB2DF0090C39C /* StripePaymentService.h */,
+				BF45FFE1209BB2DF0090C39C /* StripePaymentService.m */,
+				BF45FFD3209BB2D40090C39C /* AmazonPaymentService.h */,
+				BF45FFD4209BB2D40090C39C /* AmazonPaymentService.m */,
+				BF45FFD5209BB2D40090C39C /* ApplePaymentService.h */,
+				BF45FFD6209BB2D40090C39C /* ApplePaymentService.m */,
+				BF45FFD7209BB2D40090C39C /* InputHandler.h */,
+				BF45FFD8209BB2D40090C39C /* InputHandler.m */,
+				BF45FFCC209BB2BD0090C39C /* main.m */,
+			);
+			path = Assignment10;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF45FFC8209BB2BD0090C39C /* Assignment10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF45FFD0209BB2BD0090C39C /* Build configuration list for PBXNativeTarget "Assignment10" */;
+			buildPhases = (
+				BF45FFC5209BB2BD0090C39C /* Sources */,
+				BF45FFC6209BB2BD0090C39C /* Frameworks */,
+				BF45FFC7209BB2BD0090C39C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Assignment10;
+			productName = Assignment10;
+			productReference = BF45FFC9209BB2BD0090C39C /* Assignment10 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF45FFC1209BB2BD0090C39C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Jumpei;
+				TargetAttributes = {
+					BF45FFC8209BB2BD0090C39C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BF45FFC4209BB2BD0090C39C /* Build configuration list for PBXProject "Assignment10" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF45FFC0209BB2BD0090C39C;
+			productRefGroup = BF45FFCA209BB2BD0090C39C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF45FFC8209BB2BD0090C39C /* Assignment10 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF45FFC5209BB2BD0090C39C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF45FFE4209BB2DF0090C39C /* StripePaymentService.m in Sources */,
+				BF45FFDA209BB2D40090C39C /* ApplePaymentService.m in Sources */,
+				BF45FFE2209BB2DF0090C39C /* PaymentGateWay.m in Sources */,
+				BF45FFD9209BB2D40090C39C /* AmazonPaymentService.m in Sources */,
+				BF45FFCD209BB2BD0090C39C /* main.m in Sources */,
+				BF45FFDB209BB2D40090C39C /* InputHandler.m in Sources */,
+				BF45FFE3209BB2DF0090C39C /* PaypalPaymentService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BF45FFCE209BB2BD0090C39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BF45FFCF209BB2BD0090C39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BF45FFD1209BB2BD0090C39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF45FFD2209BB2BD0090C39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF45FFC4209BB2BD0090C39C /* Build configuration list for PBXProject "Assignment10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF45FFCE209BB2BD0090C39C /* Debug */,
+				BF45FFCF209BB2BD0090C39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF45FFD0209BB2BD0090C39C /* Build configuration list for PBXNativeTarget "Assignment10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF45FFD1209BB2BD0090C39C /* Debug */,
+				BF45FFD2209BB2BD0090C39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF45FFC1209BB2BD0090C39C /* Project object */;
+}
